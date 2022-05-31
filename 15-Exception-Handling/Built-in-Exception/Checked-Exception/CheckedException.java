@@ -1,10 +1,10 @@
 import java.io.*;
-class UnCheckedException{
+class CheckedException{
 	
 	public static void main(String []args) throws IOException{
 		
 		// Reading file from path in local directory
-		FileReader file = new FileReader("C:\\Users\\Unbeknownstguy\\Documents\\GitHub\\Java\\15-Exception-Handling\\Built-in-Exception\\Unchecked-Exception\\a.txt");
+		FileReader file = new FileReader("C:\\Users\\Unbeknownstguy\\Documents\\GitHub\\Java\\15-Exception-Handling\\Built-in-Exception\\Checked-Exception\\a.txt");
 		
 		// Creating object as one of ways of taking input
 		BufferedReader fileInput = new BufferedReader(file);
